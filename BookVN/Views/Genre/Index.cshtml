@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+@if (user != null && user.Role == "admin")
+{
+    <h2 align="center">Danh sách thể loại</h2>
+
+    <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalAdd">
+        Thêm thể loại
+    </button>
+
+    <!-- The Modal Thêm sách-->
+    <div class="modal fade" id="myModalAdd">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thêm thể loại</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="~/Genre/AddGenre" method="post">
+
+                        <div class="form-group">
+                            <label>Tên thể loại</label>
+                            <input type="text" class="form-control" name="GenreName">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Trở lại</button>
+                            <button type="submit" class="btn btn-primary">Thêm</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------- Danh sách sản phẩm ---------------------------------------------------->
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã thể loại</th>
+                    <th>Thể loại</th>
+                    <th>Hiện hữu</th>
+                    <th>Sửa thể loại</th>
+                    <th>Xóa/Phục hồi thể loại</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.ListGenre != null)
+                {
+                    foreach (var Genre in ViewBag.ListGenre)
+                    {
+                        <tr>
+                            <td>@Genre.GenreID</td>
+                            <td>@Genre.GenreName</td>
+                            <td>@Genre.IsActive</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalEdit_@Genre.GenreID">
+                                    Sửa
+                                </button>
+                                <!-- The Modal Sửa sách-->
+                                <div class="modal fade" id="myModalEdit_@Genre.GenreID">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Sửa thể loại</h4>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <form action="~/Genre/EditGenre" method="post" enctype="multipart/form-data">
+                                                    <input type="hidden" name="id" id="id" value="@Genre.GenreID" />
+                                                    <div class="form-group">
+                                                        <label>Tên thể loại</label>
+                                                        <input type="text" class="form-control" name="GenreName" value="@Genre.GenreName">
+                                                    </div>
+
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-primary">Sửa</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <span style="float:left;">
+                                    <form action="~/Genre/DeleteGenre" method="post">
+                                        <input type="hidden" name="id" id="id" value="@Genre.GenreID" />
+                                        <button class="btn btn-danger" type="submit">Xóa</button>
+                                    </form>
+                                </span>
+                                <span style="float:left; margin-left: 10px;">
+                                    <form action="~/Genre/RestoreGenre" method="post">
+                                        <input type="hidden" name="id" id="id" value="@Genre.GenreID" />
+                                        <button class="btn btn-info" type="submit">Phục hồi</button>
+                                    </form>
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h2 align="center">Đăng nhập bằng acc admin rồi hẳn vào đây nhá ???</h2>
+}

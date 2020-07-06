@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+@if (user != null && user.Role == "admin")
+{
+    <h2 align="center">Danh sách tác giả</h2>
+
+    <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalAdd">
+        Thêm tác giả
+    </button>
+
+    <!-- The Modal Thêm sách-->
+    <div class="modal fade" id="myModalAdd">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thêm tác giả</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="~/Author/AddAuthor" method="post">
+
+                        <div class="form-group">
+                            <label>Tên tác giả</label>
+                            <input type="text" class="form-control" name="AuthorName">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Trở lại</button>
+                            <button type="submit" class="btn btn-primary">Thêm</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------- Danh sách sản phẩm ---------------------------------------------------->
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã tác giả</th>
+                    <th>Tác giả</th>
+                    <th>Hiện hữu</th>
+                    <th>Sửa tác giả</th>
+                    <th>Xóa/Phục hồi tác giả</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.ListAuthor != null)
+                {
+                    foreach (var author in ViewBag.ListAuthor)
+                    {
+                        <tr>
+                            <td>@author.AuthorID</td>
+                            <td>@author.AuthorName</td>
+                            <td>@author.IsActive</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalEdit_@author.AuthorID">
+                                    Sửa
+                                </button>
+                                <!-- The Modal Sửa sách-->
+                                <div class="modal fade" id="myModalEdit_@author.AuthorID">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Sửa tác giả</h4>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <form action="~/Author/EditAuthor" method="post" enctype="multipart/form-data">
+                                                    <input type="hidden" name="id" id="id" value="@author.AuthorID" />
+                                                    <div class="form-group">
+                                                        <label>Tên tác giả</label>
+                                                        <input type="text" class="form-control" name="AuthorName" value="@author.AuthorName">
+                                                    </div>
+
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-primary">Sửa</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <span style="float:left;">
+                                    <form action="~/Author/DeleteAuthor" method="post">
+                                        <input type="hidden" name="id" id="id" value="@author.AuthorID" />
+                                        <button class="btn btn-danger" type="submit">Xóa</button>
+                                    </form>
+                                </span>
+                                <span style="float:left; margin-left: 10px;">
+                                    <form action="~/Author/RestoreAuthor" method="post">
+                                        <input type="hidden" name="id" id="id" value="@author.AuthorID" />
+                                        <button class="btn btn-info" type="submit">Phục hồi</button>
+                                    </form>
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h2 align="center">Đăng nhập bằng acc admin rồi hẳn vào đây nhá ???</h2>
+}

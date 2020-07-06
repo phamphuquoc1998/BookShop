@@ -1,0 +1,112 @@
+
+
+/* fahasa14 */
+.main-body-14
+{
+    margin: 20px 40px 0 40px;
+    height: auto;
+}
+.fahasa14-row2
+{
+    height: 400px;
+    background-color: white;
+}
+.fahasa14-row2-top
+{
+    height: 100px;
+    width:100%;
+    background-color: #333333;
+}
+.fahasa14-row2-top p
+{   
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+    color: white;
+    float: left;
+    margin: 40px 0px 40px 20px;
+}
+.fahasa14-row2-top input
+{  
+    text-align: left;
+    height:40px;
+    margin: 30px 20px;
+    width: 400px;
+    border:transparent;
+    border-radius: 3px;
+    color:black;
+}
+.fahasa14-row2-mid
+{
+    float: left;
+    height: 300px;
+    width: 100%;
+  
+}
+.fahasa14-row2-mid p
+{
+    margin: 50px 10px 30px 40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+}
+.fahasa14-row2-mid  a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: #080808;
+    font-family: 'Poppins', sans-serif; 
+    display: list-item;
+    list-style: none;
+    padding: 20px 0 10px 20px;
+    border-bottom: 1px solid #333333;
+}
+.fahasa14-row2-mid li 
+{  
+    display: list-item;
+    list-style: none; 
+}
+.fahasa14-row2-mid img 
+{  
+    float: left;
+    margin:10px 10px 0px 10px;
+    height: 20px;
+    widows: 20px;
+}
+.fahasa14-row3
+{
+    background-color:white;
+    height: 400px;
+}
+.fahasa14-row3 img
+{
+    margin: 50px 0px 0px 30px;
+}
+.fahasa14-row3 p
+{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+    margin: 10px 0px 0px 30px;
+}
+.fahasa14-row3-img img
+{
+    height: 40%;
+    width: 40%;
+    margin: 10px 10px 0px 30px;
+}
+.fahasa14-row3-col2-row1 img
+{
+    height: 10%;
+    width: 10%;
+    margin: 50px 6px 0px 5px;
+}
+.fahasa14-row3-col2-row2 img
+{
+    height: 35%;
+    width: 35%;
+    margin: 20px 5px 0px 10px;
+}
+.fahasa14-row3-col3 img
+{
+    height: 80%;
+    width: 80%;
+    margin: 30px 50px 0px 50px;
+}

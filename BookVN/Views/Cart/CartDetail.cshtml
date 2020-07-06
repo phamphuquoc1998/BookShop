@@ -1,0 +1,57 @@
+﻿@model BookVN.Models.Cart
+@{
+    ViewBag.Title = "CartDetail";
+}
+<div style="margin:0 30px;">
+    <h3>Giỏ hàng</h3>
+    <!-- Danh sách sản phẩm trong giỏ hàng -->
+    <!-- Kiểm tra giỏ hàng rỗng -->
+    @if (ViewBag.ListCartDetail != null && ViewBag.ListCartDetail.Count > 0)
+    {
+        <div style="background-color: snow">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Tên sản phẩm</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Thành tiền</th>
+                        <th scope="col">Gỡ bỏ sản phẩm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Từng sản phẩm trong giỏ hàng -->
+                    @foreach (var item in ViewBag.ListCartDetail)
+                    {
+                        <tr>
+                            <th><img src="~/BookImage/@item.FKBook.Image" style="width: 80px" /></th>
+                            <td>@item.FKBook.BookName</td>
+                            <td>
+                                <form action="~/Cart/UpdateQuantity" method="post">
+                                    <input type="hidden" name="id" id="id" value="@item.BookID" />
+                                    <input type="number" class="form-control" style="float: left; width:100px; display: inline;" name="ItemQuantity" value="@item.Quantity">
+                                    <button type="submit" class="btn btn-primary" style="display: inline;">Cập nhật</button>
+                                </form>
+                            </td>
+                            <td>@String.Format("{0:n0}", item.Total) VNĐ</td>
+                            <td><a href="~/Cart/RemoveItem/@item.BookID" class="btn btn-danger">Gỡ bỏ</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div>
+                <h5>Tổng thành tiền: @String.Format("{0:n0}", Model.TotalMoney) VNĐ</h5>
+                <a href="~/Cart/Pay" class="btn btn-success btn-block">Thanh Toán <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    }
+    // Khi không có sản phẩm nào trong giỏ hàng
+    else
+    {
+        <p style="color: red">Giỏ hàng chưa có hàng</p>
+        <a href="~/Home">Quay lại trang sản phẩm</a>
+    }
+</div>
+
+

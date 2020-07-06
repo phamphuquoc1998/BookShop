@@ -1,0 +1,62 @@
+﻿<!--trang hiển thị-->
+<style>
+    .hover:hover {
+        box-shadow: 1px 1px 2px black, 0 0 15px #33BAFF, 0 0 5px green;
+    }
+</style>
+<!DOCTYPE html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<div class="col-9" style="background-color:white;">
+    <h4>Tất cả sản phẩm</h4>
+    <hr style="border-bottom: 1px solid #337ab7;" />
+    <div class="row">
+        @if (ViewBag.ListBook != null)
+        {
+            foreach (var item in ViewBag.ListBook)
+            {
+                if (item.IsActive == true)
+                {
+                    if (item.Discount > 0)
+                    {
+                        <div class="col-2 p-2 text-center hover" >
+                            <a href="~/Book/BookDetail/@item.BookID"
+                               style="text-decoration: none; color:black">
+                                <span style="width: 50px;height: 25px;background-color: #ef3f42;font-size: 14px;font-weight: bold;text-align: center;float:right;color:white;font-family: 'Roboto',sans-serif;line-height: 25px;position: absolute;border: none;">-@item.Discount%</span>
+                                <img src="~/BookImage/@item.Image" alt="Card image" width="150" height="210">
+                                <div class="m-2">
+                                    <h5>@item.BookName</h5>
+                                    <p>@item.FKAuthor.AuthorName</p>
+                                    <h5>@String.Format("{0:n0}", item.Price2) VNĐ</h5>
+                                    <h6 style="text-decoration: line-through;color:red" class="mt-3">@String.Format("{0:n0}", item.Price) VNĐ</h6>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-2 p-2 text-center hover" >
+                            <a href="~/Book/BookDetail/@item.BookID"
+                               style="text-decoration: none; color:black">
+                                <img src="~/BookImage/@item.Image" alt="Card image" width="150" height="210">
+                                <div class="m-2">
+                                    <h5>@item.BookName</h5>
+                                    <p>@item.FKAuthor.AuthorName</p>
+                                    <h5 class="mt-3">@String.Format("{0:n0}", item.Price) VNĐ</h5>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                }
+            }
+        }
+    </div>
+</div>
+

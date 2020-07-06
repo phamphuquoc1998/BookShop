@@ -1,0 +1,64 @@
+﻿@{
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+<nav class="navbar navbar-expand-sm navbar-dark" style="background: rgb(99,95,164);
+        background: linear-gradient(161deg, rgba(99,95,164,1) 24%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 100%);">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item" align="center">
+            <a style="color:white" class="nav-link">Email: BookVN@gmail.com |</a>
+        </li>
+        <li class="nav-item" align="center">
+            <a style="color:white" class="nav-link">SĐT: 01268457 </a>
+        </li>
+    </ul>
+
+    <!-- Khi chưa đăng nhập và đã đăng nhập-->
+    @if (user == null)
+    {
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a style="color:white" class="nav-link" href="~/Home">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+            <a style="color:white" class="nav-link" href="~/User/Register">Đăng ký</a>
+        </li>
+        <li class="nav-item">
+            <a style="color:white" class="nav-link" href="~/User/Login">Đăng nhập</a>
+        </li>
+    </ul>
+    }
+    else
+    {
+        <ul class="navbar-nav ml-auto">
+            <!-- Admin-->
+            <li class="nav-item"><a  style="color:white" class="nav-link" href="~/Home">Trang chủ</a></li>
+            @if (user != null && user.Role == "admin")
+            {
+                <li class="nav-item dropdown ">
+                    
+                    <a style="color:white" class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Chức năng
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="~/Book">Danh sách sản phẩm</a>
+                        <a class="dropdown-item" href="~/Genre">Danh sách thể loại</a>
+                        <a class="dropdown-item" href="~/Author">Danh sách tác giả</a>
+                        <a class="dropdown-item" href="~/Publisher">Danh sách nhà xuất bản</a>
+                        <a class="dropdown-item" href="~/User">Danh sách tài khoản</a>
+                        <a class="dropdown-item" href="~/Log">Danh sách Logs</a>
+                    </div>
+                </li>
+            }
+
+            <li class="nav-item">
+                <a style="color:white" class="nav-link" href="#">Xin chào @user.UserName</a>
+            </li>
+            <li class="nav-item">
+                <a style="color:white" class="nav-link" href="~/User/Logout">Đăng xuất</a>
+            </li>
+        </ul>
+    }
+</nav>

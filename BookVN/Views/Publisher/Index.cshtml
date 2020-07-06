@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+@if (user != null && user.Role == "admin")
+{
+    <h2 align="center">Danh sách nhà xuất bản</h2>
+
+    <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalAdd">
+        Thêm nhà xuất bản
+    </button>
+
+    <!-- The Modal Thêm sách-->
+    <div class="modal fade" id="myModalAdd">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thêm nhà xuất bản</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="~/Publisher/AddPublisher" method="post">
+
+                        <div class="form-group">
+                            <label>Tên nhà xuất bản</label>
+                            <input type="text" class="form-control" name="PublisherName">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Trở lại</button>
+                            <button type="submit" class="btn btn-primary">Thêm</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------- Danh sách sản phẩm ---------------------------------------------------->
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã nhà xuất bản</th>
+                    <th>nhà xuất bản</th>
+                    <th>Hiện hữu</th>
+                    <th>Sửa nhà xuất bản</th>
+                    <th>Xóa/Phục hồi nhà xuất bản</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.ListPublisher != null)
+                {
+                    foreach (var Publisher in ViewBag.ListPublisher)
+                    {
+                        <tr>
+                            <td>@Publisher.PublisherID</td>
+                            <td>@Publisher.PublisherName</td>
+                            <td>@Publisher.IsActive</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalEdit_@Publisher.PublisherID">
+                                    Sửa
+                                </button>
+                                <!-- The Modal Sửa sách-->
+                                <div class="modal fade" id="myModalEdit_@Publisher.PublisherID">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Sửa nhà xuất bản</h4>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <form action="~/Publisher/EditPublisher" method="post" enctype="multipart/form-data">
+                                                    <input type="hidden" name="id" id="id" value="@Publisher.PublisherID" />
+                                                    <div class="form-group">
+                                                        <label>Tên nhà xuất bản</label>
+                                                        <input type="text" class="form-control" name="PublisherName" value="@Publisher.PublisherName">
+                                                    </div>
+
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-primary">Sửa</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <span style="float:left;">
+                                    <form action="~/Publisher/DeletePublisher" method="post">
+                                        <input type="hidden" name="id" id="id" value="@Publisher.PublisherID" />
+                                        <button class="btn btn-danger" type="submit">Xóa</button>
+                                    </form>
+                                </span>
+                                <span style="float:left; margin-left: 10px;">
+                                    <form action="~/Publisher/RestorePublisher" method="post">
+                                        <input type="hidden" name="id" id="id" value="@Publisher.PublisherID" />
+                                        <button class="btn btn-info" type="submit">Phục hồi</button>
+                                    </form>
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h2 align="center">Đăng nhập bằng acc admin rồi hẳn vào đây nhá ???</h2>
+}

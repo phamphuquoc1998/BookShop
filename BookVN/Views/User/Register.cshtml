@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+
+}
+@model BookVN.Models.User
+    <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <!-- form card login -->
+                    <div class="card rounded-0">
+                        <div class="card-header">
+                            <h3 class="mb-0">Đăng ký tài khoản</h3>
+                        </div>
+                        <div class="card-body">
+                            @using (Html.BeginForm("Register", "User", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", htmlAttributes: new { @class = "text-danger", @style = "color: #000" })
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        
+                                        @Html.HiddenFor(m => m.IsActive, new { Value = true })
+                                        @Html.HiddenFor(m => m.Role, new { Value = "guest" })
+                                    </div>
+                                    <div class="form-group">
+
+                                        @Html.EditorFor(m => m.UserName, new { htmlAttributes = new { placeholder = "Tên tài khoản của bạn", @class="form-control" } })
+                                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.PasswordFor(m => m.Password, htmlAttributes: new { placeholder = "nhập mật khẩu", @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div>
+                                        @Html.Password("pass", "", new { placeholder = "Nhập lại mật khẩu", @class = "form-control" })
+                                        @Html.ValidationMessage("confirmPassword", htmlAttributes: new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group" style="text-align: left;">
+                                        <br>@Html.CheckBox("agree", false) Cập nhật những thông tin mới nhất qua email<br>
+                                        <br>@Html.CheckBox("term", false) Tôi đồng ý với Điều Khoản Dịch Vụ và Chính Sách Bảo Mật<br><br>
+                                    </div>
+                                    <input type="submit" class="btn btn-primary" value="Submit">
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

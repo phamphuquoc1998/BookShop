@@ -1,0 +1,139 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVN</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="~/Content/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: #e8e8e8">
+    <!-- Hình ảnh đầu trang -->
+    <div class="header">
+        <img src="https://www.fahasa.com/media/wysiwyg/Thang-5-2019/BannerMain_1263x80.png"
+             style="width:100%" />
+    </div>
+
+    <!-- Thanh navbar-->
+    @{
+        Html.RenderPartial("../_NavBar");
+    }
+
+    <div class="container-fluid">
+        @RenderBody()
+
+        <!-- Phần footer -->
+        <hr style="border-bottom: 1px solid #337ab7;" />
+        <footer>
+            <div class="main-body-14">
+                <div class="row fahasa14-row2">
+                    <div class=" fahasa14-row2-top">
+                        <p>ĐĂNG KÝ NHẬN BẢN TIN</p>
+                        <input type="text" placeholder=" Đăng ký nhận bản tin (Email)">
+                    </div>
+                    <div class="row fahasa14-row2-mid">
+                        <div class="col-3">
+                            <p>DỊCH VỤ</p>
+                            <ul>
+                                <li><a href="">Điều khoản sử dụng</a></li>
+                                <li><a href="">Chính sách bảo mật</a></li>
+                                <li><a href="">Giới thiệu Fahasa</a></li>
+                                <li><a href="">Hệ thống trung tâm - nhà sách</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-3">
+                            <p>HỖ TRỢ</p>
+                            <ul>
+                                <li><a href="">Chính sách đổi - trả - hoàn tiền</a></li>
+                                <li><a href="">Chính sách khách sỉ</a></li>
+                                <li><a href="">Phương thức vận chuyển</a></li>
+                                <li><a href="">Phương thức thanh toán</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <p>TÀI KHOẢN CỦA TÔI</p>
+                            <ul>
+                                <li><a href="">Đăng nhập/Tạo mới tài khoản</a></li>
+                                <li><a href="">Thay đổi địa chỉ khách hàng</a></li>
+                                <li><a href="">Chi tiết tài khoản</a></li>
+                                <li><a href="">Lịch sử mua hàng</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <p>LIÊN HỆ</p>
+                            <ul>
+                                <li>
+                                    <img src="http://www.teccodamsen.info/usercontent/site_5552c9738e294bc6b6439ad1415006db/imagebrowser/icon_diadiem.png">
+                                    <a href=""><span style="font-weight:bold">Địa chỉ:</span> 60-62 Lê Lợi, Q.1, TP. HCM </a>
+                                </li>
+                                <li>
+                                    <img src="https://image.flaticon.com/icons/png/512/60/60543.png">
+                                    <a href=""><span style="font-weight:bold">Email:</span> info@fahasa.com</a>
+                                </li>
+                                <li>
+                                    <img src="https://cdn4.iconfinder.com/data/icons/communication-and-audio/128/6-512.png">
+                                    <a href=""><span style="font-weight:bold">Phone:</span> 1900636467</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row fahasa14-row3">
+                    <div class="col-3">
+                        <img src="~/Images/BookVNLogo.png" style="width: 80%" />
+                        <p>
+                            Lầu 7, 387-389 Hai Bà Trưng Quận 3 TP HCM Công Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA 60 - 62 Lê
+                            Lợi, Quận 1, TP. HCM, Việt Nam Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG hỗ
+                            trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống Fahasa trên toàn quốc.
+                        </p>
+
+                        <div class="fahasa14-row3-img">
+                            <img src="https://www.fahasa.com/media/wysiwyg/Logo-NCC/logo-bo-cong-thuong-da-thong-bao.png ">
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-4">
+                        <div class="row fahasa14-row3-col2-row1">
+                            <img src="https://www.fahasa.com/skin/frontend/ma_vanese/fahasa/images/footer/Facebook-on.png">
+                            <img src="https://www.fahasa.com/skin/frontend/ma_vanese/fahasa/images//footer/Insta-on.png">
+                            <img src="https://www.fahasa.com/skin/frontend/ma_vanese/fahasa/images//footer/Youtube-on.png">
+                            <img src="https://www.fahasa.com/skin/frontend/ma_vanese/fahasa/images//footer/tumblr-on.png">
+                            <img src="https://www.fahasa.com/skin/frontend/ma_vanese/fahasa/images//footer/twitter-on.png">
+                            <img src="https://www.fahasa.com/skin/frontend/ma_vanese/fahasa/images//footer/pinterest-on.png">
+                        </div>
+                        <div class="row fahasa14-row3-col2-row2">
+                            <img src="https://www.fahasa.com/media/wysiwyg/Logo-NCC/android.png">
+                            <img src="https://www.fahasa.com/media/wysiwyg/Logo-NCC/appstore.png">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="fahasa14-row3-col3">
+                            <img src="https://www.fahasa.com/media/wysiwyg/Logo-NCC/Ninja-1.png">
+                            <img src="https://www.fahasa.com/media/wysiwyg/Logo-NCC/Speedlink-1.png">
+                            <img src="https://www.fahasa.com/media/wysiwyg/huongdan/logo-Kerry-172x40.png">
+                        </div>
+                    </div>
+                    <div class="text-center container">
+                        <p>Nhà sách BookVN - Thành lập năm @DateTime.Now.Year - Có bản quyền hay không cũng không ai quan tâm đâu</p>
+                    </div>
+                </div>
+
+            </div>      
+        </footer>
+    </div>
+</body>
+</html>

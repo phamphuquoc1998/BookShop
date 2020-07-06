@@ -1,0 +1,694 @@
+D:\Projects\dotNet\BookVN\BookVN\bin\ApplicationInsights.config
+D:\Projects\dotNet\BookVN\BookVN\bin\BookVN.dll.config
+D:\Projects\dotNet\BookVN\BookVN\bin\BookVN.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\BookVN.pdb
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\csc.exe
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\csc.exe.config
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\csc.rsp
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\csi.exe
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\csi.exe.config
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\csi.rsp
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.AppContext.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Console.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.IO.Compression.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.IO.Pipes.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.AccessControl.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.Claims.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.ValueTuple.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Xml.XPath.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\vbc.exe
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\vbc.exe.config
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\vbc.rsp
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe
+D:\Projects\dotNet\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\dotNet\BookVN\BookVN\bin\Antlr3.Runtime.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\EntityFramework.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\EntityFramework.SqlServer.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.Web.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\Newtonsoft.Json.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Helpers.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Mvc.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Optimization.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Razor.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.WebPages.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.WebPages.Razor.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\WebGrease.dll
+D:\Projects\dotNet\BookVN\BookVN\bin\EntityFramework.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\EntityFramework.SqlServer.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Helpers.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Mvc.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Optimization.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.Razor.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.WebPages.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Web.WebPages.Razor.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Newtonsoft.Json.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Antlr3.Runtime.pdb
+D:\Projects\dotNet\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.AI.Web.xml
+D:\Projects\dotNet\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\dotNet\BookVN\BookVN\obj\Debug\BookVN.csprojAssemblyReference.cache
+D:\Projects\dotNet\BookVN\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+D:\Projects\dotNet\BookVN\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+D:\Projects\dotNet\BookVN\BookVN\obj\Debug\BookVN.dll
+D:\Projects\dotNet\BookVN\BookVN\obj\Debug\BookVN.pdb
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\ApplicationInsights.config
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\BookVN.dll.config
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\BookVN.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\BookVN.pdb
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\csc.exe
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\csc.exe.config
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\csc.rsp
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\csi.exe
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\csi.exe.config
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\csi.rsp
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.AppContext.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Collections.Immutable.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Console.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.IO.Compression.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.IO.Pipes.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.AccessControl.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.Claims.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.ValueTuple.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Xml.XPath.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\vbc.exe
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\vbc.exe.config
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\vbc.rsp
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe.config
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Antlr3.Runtime.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\EntityFramework.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\EntityFramework.SqlServer.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.Web.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.ApplicationInsights.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.Web.Infrastructure.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Newtonsoft.Json.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Helpers.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Mvc.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Optimization.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Razor.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.WebPages.Deployment.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.WebPages.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.WebPages.Razor.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\WebGrease.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\EntityFramework.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\EntityFramework.SqlServer.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Helpers.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Mvc.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Optimization.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.Razor.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.WebPages.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.WebPages.Deployment.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Web.WebPages.Razor.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Newtonsoft.Json.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Antlr3.Runtime.pdb
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.AI.Web.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\obj\Debug\BookVN.dll
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\obj\Debug\BookVN.pdb
+E:\HocTap\HK2\Đồ án 1\LT\BookVN\BookVN\obj\Debug\BookVN.csprojAssemblyReference.cache
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\ApplicationInsights.config
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\BookVN.dll.config
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\BookVN.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\BookVN.pdb
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\csc.exe
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\csc.exe.config
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\csc.rsp
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\csi.exe
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\csi.exe.config
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\csi.rsp
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.AppContext.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Collections.Immutable.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Console.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.IO.Compression.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.IO.Pipes.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.AccessControl.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.Claims.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.ValueTuple.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Xml.XPath.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\vbc.exe
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\vbc.exe.config
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\vbc.rsp
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe.config
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Antlr3.Runtime.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\EntityFramework.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\EntityFramework.SqlServer.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.Web.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.ApplicationInsights.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.Web.Infrastructure.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Newtonsoft.Json.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Helpers.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Mvc.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Optimization.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Razor.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.WebPages.Deployment.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.WebPages.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.WebPages.Razor.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\WebGrease.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\EntityFramework.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\EntityFramework.SqlServer.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Helpers.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Mvc.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Optimization.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.Razor.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.WebPages.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.WebPages.Deployment.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Web.WebPages.Razor.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Newtonsoft.Json.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Antlr3.Runtime.pdb
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.AI.Web.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\obj\Debug\BookVN.csprojAssemblyReference.cache
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\obj\Debug\BookVN.dll
+E:\Huflit\Đồ án 1\Project\BookVN\BookVN\obj\Debug\BookVN.pdb
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\ApplicationInsights.config
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\BookVN.dll.config
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\BookVN.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\BookVN.pdb
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\csc.exe
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\csc.exe.config
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\csc.rsp
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\csi.exe
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\csi.exe.config
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\csi.rsp
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.AppContext.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Console.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.IO.Compression.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.Claims.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.ValueTuple.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\vbc.exe
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\vbc.exe.config
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\vbc.rsp
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Antlr3.Runtime.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\EntityFramework.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\EntityFramework.SqlServer.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.Web.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Newtonsoft.Json.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Helpers.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Mvc.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Optimization.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Razor.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.WebPages.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.WebPages.Razor.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\WebGrease.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\EntityFramework.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\EntityFramework.SqlServer.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Helpers.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Mvc.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Optimization.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.Razor.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.WebPages.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Web.WebPages.Razor.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Newtonsoft.Json.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Antlr3.Runtime.pdb
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.AI.Web.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\obj\Debug\BookVN.dll
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\obj\Debug\BookVN.pdb
+C:\Users\nguyen chi ton\Desktop\BookVN\BookVN\obj\Debug\BookVN.csprojAssemblyReference.cache
+D:\Downloads\BookVN\BookVN\bin\ApplicationInsights.config
+D:\Downloads\BookVN\BookVN\bin\BookVN.dll.config
+D:\Downloads\BookVN\BookVN\bin\BookVN.dll
+D:\Downloads\BookVN\BookVN\bin\BookVN.pdb
+D:\Downloads\BookVN\BookVN\bin\roslyn\csc.exe
+D:\Downloads\BookVN\BookVN\bin\roslyn\csc.exe.config
+D:\Downloads\BookVN\BookVN\bin\roslyn\csc.rsp
+D:\Downloads\BookVN\BookVN\bin\roslyn\csi.exe
+D:\Downloads\BookVN\BookVN\bin\roslyn\csi.exe.config
+D:\Downloads\BookVN\BookVN\bin\roslyn\csi.rsp
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Downloads\BookVN\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.AppContext.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Console.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.IO.Compression.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.IO.Pipes.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.AccessControl.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.Claims.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.ValueTuple.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Xml.XPath.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Downloads\BookVN\BookVN\bin\roslyn\vbc.exe
+D:\Downloads\BookVN\BookVN\bin\roslyn\vbc.exe.config
+D:\Downloads\BookVN\BookVN\bin\roslyn\vbc.rsp
+D:\Downloads\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe
+D:\Downloads\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloads\BookVN\BookVN\bin\Antlr3.Runtime.dll
+D:\Downloads\BookVN\BookVN\bin\EntityFramework.dll
+D:\Downloads\BookVN\BookVN\bin\EntityFramework.SqlServer.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.Web.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.ApplicationInsights.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloads\BookVN\BookVN\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\BookVN\BookVN\bin\Newtonsoft.Json.dll
+D:\Downloads\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.Helpers.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.Mvc.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.Optimization.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.Razor.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.WebPages.Deployment.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.WebPages.dll
+D:\Downloads\BookVN\BookVN\bin\System.Web.WebPages.Razor.dll
+D:\Downloads\BookVN\BookVN\bin\WebGrease.dll
+D:\Downloads\BookVN\BookVN\bin\EntityFramework.xml
+D:\Downloads\BookVN\BookVN\bin\EntityFramework.SqlServer.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.Helpers.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.Mvc.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.Optimization.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.Razor.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.WebPages.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.WebPages.Deployment.xml
+D:\Downloads\BookVN\BookVN\bin\System.Web.WebPages.Razor.xml
+D:\Downloads\BookVN\BookVN\bin\Newtonsoft.Json.xml
+D:\Downloads\BookVN\BookVN\bin\Antlr3.Runtime.pdb
+D:\Downloads\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.xml
+D:\Downloads\BookVN\BookVN\bin\Microsoft.AI.Web.xml
+D:\Downloads\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloads\BookVN\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+D:\Downloads\BookVN\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+D:\Downloads\BookVN\BookVN\obj\Debug\BookVN.dll
+D:\Downloads\BookVN\BookVN\obj\Debug\BookVN.pdb
+D:\Downloads\BookVN\BookVN\bin\ClosedXML.dll
+D:\Downloads\BookVN\BookVN\bin\DocumentFormat.OpenXml.dll
+D:\Downloads\BookVN\BookVN\bin\ExcelNumberFormat.dll
+D:\Downloads\BookVN\BookVN\bin\FastMember.dll
+D:\Downloads\BookVN\BookVN\bin\System.IO.FileSystem.Primitives.dll
+D:\Downloads\BookVN\BookVN\bin\System.IO.Packaging.dll
+D:\Downloads\BookVN\BookVN\bin\ClosedXML.pdb
+D:\Downloads\BookVN\BookVN\bin\ClosedXML.xml
+D:\Downloads\BookVN\BookVN\bin\DocumentFormat.OpenXml.xml
+D:\Downloads\BookVN\BookVN\bin\ExcelNumberFormat.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\ApplicationInsights.config
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\BookVN.dll.config
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\BookVN.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\BookVN.pdb
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\csc.exe
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\csc.exe.config
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\csc.rsp
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\csi.exe
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\csi.exe.config
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\csi.rsp
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.AppContext.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Console.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.IO.Compression.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.IO.Pipes.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.Claims.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.ValueTuple.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\vbc.exe
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\vbc.exe.config
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\vbc.rsp
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Antlr3.Runtime.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\ClosedXML.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\DocumentFormat.OpenXml.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\EntityFramework.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\EntityFramework.SqlServer.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\ExcelNumberFormat.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\FastMember.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.Web.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Newtonsoft.Json.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.IO.Packaging.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Helpers.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Mvc.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Optimization.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Razor.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.WebPages.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.WebPages.Razor.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\WebGrease.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\ClosedXML.pdb
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\ClosedXML.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\DocumentFormat.OpenXml.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\EntityFramework.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\EntityFramework.SqlServer.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\ExcelNumberFormat.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Helpers.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Mvc.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Optimization.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.Razor.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.WebPages.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Web.WebPages.Razor.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Newtonsoft.Json.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Antlr3.Runtime.pdb
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.AI.Web.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\obj\Debug\BookVN.dll
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\obj\Debug\BookVN.pdb
+C:\Users\nguyen chi ton\Desktop\Nguyễn Chí Tôn\BookVN\BookVN\obj\Debug\BookVN.csprojAssemblyReference.cache
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\ApplicationInsights.config
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\BookVN.dll.config
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\BookVN.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\BookVN.pdb
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\csc.exe
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\csc.exe.config
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\csc.rsp
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\csi.exe
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\csi.exe.config
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\csi.rsp
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.AppContext.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Collections.Immutable.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Console.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.IO.Compression.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.IO.FileSystem.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.IO.Pipes.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.AccessControl.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.Claims.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.ValueTuple.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Xml.XPath.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\vbc.exe
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\vbc.exe.config
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\vbc.rsp
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\VBCSCompiler.exe
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\roslyn\VBCSCompiler.exe.config
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Antlr3.Runtime.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\ClosedXML.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\DocumentFormat.OpenXml.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\EntityFramework.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\EntityFramework.SqlServer.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\ExcelNumberFormat.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\FastMember.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.DependencyCollector.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.Web.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.WindowsServer.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.ApplicationInsights.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.Web.Infrastructure.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Newtonsoft.Json.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.IO.FileSystem.Primitives.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.IO.Packaging.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Helpers.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Mvc.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Optimization.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Razor.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.WebPages.Deployment.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.WebPages.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.WebPages.Razor.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\WebGrease.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\ClosedXML.pdb
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\ClosedXML.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\DocumentFormat.OpenXml.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\EntityFramework.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\EntityFramework.SqlServer.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\ExcelNumberFormat.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Helpers.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Mvc.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Optimization.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.Razor.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.WebPages.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.WebPages.Deployment.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Web.WebPages.Razor.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Newtonsoft.Json.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Antlr3.Runtime.pdb
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.DependencyCollector.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.WindowsServer.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.AI.Web.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\obj\Debug\BookVN.csproj.CoreCompileInputs.cache
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\obj\Debug\BookVN.csproj.CopyComplete
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\obj\Debug\BookVN.dll
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\obj\Debug\BookVN.pdb
+D:\Schoool\DA1\BookVN-master\BookVN-master\BookVN\obj\Debug\BookVN.csprojAssemblyReference.cache

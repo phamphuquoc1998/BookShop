@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Discount";
+    var user = Session["User"] as BookVN.Models.User;
+}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<!--Logo - thanh tìm kiếm - Giỏ hàng-->
+@Html.Partial("_LogoSearchCart")
+
+<!--Thanh lọc thể loại- Trang hiển thị-->
+<div class="row m-2">
+    <!-- Thanh lọc thể loại-->
+    <div class="col-3">
+        <h6 class="list-group-item active text-center">Danh sách thể loại</h6>
+        @foreach (var genre in ViewBag.ListGenre)
+        {
+            if (genre.IsActive == true)
+            {
+                <a class="list-group-item list-group-item-action" href="~/Book/Genre/@genre.GenreID">Sách @genre.GenreName</a>
+            }
+        }
+        <a class="list-group-item list-group-item-action" href="~/Home/Discount">Sách giảm giá</a>
+        <a class="list-group-item list-group-item-action" href="~/Home/AllBook">Tất cả các sách</a>
+    </div>
+
+    @Html.Partial("_Discount")
+</div>

@@ -1,0 +1,57 @@
+﻿@model BookVN.Models.User
+@{
+    ViewBag.Title = "Login";
+}
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <!-- form card login -->
+                    <div class="card rounded-0">
+                        <div class="card-header">
+                            <h3 class="mb-0">Đăng nhập tài khoản</h3>
+                        </div>
+                        <div class="card-body">
+                            @using (Html.BeginForm("Login", "User", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", htmlAttributes: new { @class = "text-danger" })
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                @Html.LabelFor(m => m.UserName, htmlAttributes: new { @class = "input-group-text" })
+                                            </div>
+                                            @Html.EditorFor(m => m.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                @Html.LabelFor(m => m.Password, htmlAttributes: new { @class = "input-group-text" })
+                                            </div>
+                                            @Html.PasswordFor(m => m.Password, htmlAttributes : new { @class = "form-control" } )
+                                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>                      
+                                    <button type="submit" class="btn btn-primary float-right" id="btnLogin">Đăng nhập</button>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

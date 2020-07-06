@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+<!--Logo - thanh tìm kiếm - Giỏ hàng-->
+@Html.Partial("_LogoSearchCart")
+
+<!--Thanh lọc thể loại- Trang hiển thị-->
+<div class="row m-2">
+    <!-- Thanh lọc thể loại-->
+    <div class="col-3">
+        <h6 class="list-group-item active text-center">Danh sách thể loại</h6>
+        @foreach (var genre in ViewBag.ListGenre)
+        {
+            if (genre.IsActive == true)
+            {
+                <a class="list-group-item list-group-item-action" href="~/Book/Genre/@genre.GenreID">Sách @genre.GenreName</a>
+            }
+        }
+        <a class="list-group-item list-group-item-action" href="~/Home/Discount">Sách giảm giá</a>
+        <a class="list-group-item list-group-item-action" href="~/Home/AllBook">Tất cả các sách</a>
+    </div>
+
+    @Html.Partial("_Home")
+</div>
+<hr style="border-bottom: 1px solid #337ab7;" />
+<div class="row m-2">
+    <div class="row">
+        <div class="col-6">
+            <a style="padding:0 10px  0 15px"><img src="https://cdn0.fahasa.com/media/wysiwyg/Thang-5-2019/Reply-596x186-1.png" style="height:200px;width:100%" /></a>
+        </div>
+        <div class="col-3">
+            <a style="padding:0 10px" href="~/Book/BookDetail/7"><img src="https://www.vinabook.com/images/thumbnails/promo/802x480/337874_desktop6cgm-xf.jpg" style="height:200px;width:100%" /></a>
+        </div>
+        <div class="col-3">
+            <a style="padding:0 20px 0 10px " href="~/Book/BookDetail/8"><img src="https://www.vinabook.com/images/thumbnails/promo/802x480/337162_desktop.jpg" style="height:200px;width:93%" /></a>
+        </div>
+    </div>
+</div>
+<hr style="border-bottom: 1px solid #337ab7;" />
+<div class="row m-2">
+    <div class="col-12" style="background-color:white;">
+        <h4 style="border-bottom: 1px solid red;color:red">Best Sale</h4>
+        <div class="row">
+            @if (ViewBag.ListBook != null)
+            {
+                foreach (var item in ViewBag.ListBook)
+                {
+                    if (item.IsActive == true)
+                    {
+                        if (item.Discount >= 50)
+                        {
+                            <div class="col-2 p-2 text-center hover">
+                                <a href="~/Book/BookDetail/@item.BookID"
+                                   style="text-decoration: none; color:black">
+                                    <span style="width: 50px;height: 25px;background-color: #ef3f42;font-size: 14px;font-weight: bold;text-align: center;float:right;color:white;font-family: 'Roboto',sans-serif;line-height: 25px;position: absolute;border: none;">-@item.Discount%</span>
+                                    <img src="~/BookImage/@item.Image" alt="Card image" width="150" height="210">
+                                    <div class="m-2">
+                                        <h5>@item.BookName</h5>
+                                        <p>@item.FKAuthor.AuthorName</p>
+                                        <h5>@String.Format("{0:n0}", item.Price2) VNĐ</h5>
+                                        <h6 style="text-decoration: line-through;color:red" class="mt-3">@String.Format("{0:n0}", item.Price) VNĐ</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+
+                    }
+                }
+            }
+        </div>
+
+    </div>
+</div>
+<hr style="border-bottom: 1px solid #337ab7;" />
+<div class="row m-2">
+    <div class="col-12" style="background-color:white;">
+        <h4 style="border-bottom: 1px solid red;">Nỗi Bật <a style="color:red;float:right;font-size:15px">Sách HOT - Giảm Sốc</a></h4>
+        <div class="row">
+            @if (ViewBag.ListBook != null)
+            {
+                foreach (var item in ViewBag.ListBook)
+                {
+                    if (item.IsActive == true)
+                    {
+                        if (item.Discount >=30 && item.Discount <50)
+                        {
+                            <div class="col-2 p-2 text-center hover">
+                                <a href="~/Book/BookDetail/@item.BookID"
+                                   style="text-decoration: none; color:black">
+                                    <span style="width: 50px;height: 25px;background-color: #ef3f42;font-size: 14px;font-weight: bold;text-align: center;float:right;color:white;font-family: 'Roboto',sans-serif;line-height: 25px;position: absolute;border: none;">-@item.Discount%</span>
+                                    <img src="~/BookImage/@item.Image" alt="Card image" width="150" height="210">
+                                    <div class="m-2">
+                                        <h5>@item.BookName</h5>
+                                        <p>@item.FKAuthor.AuthorName</p>
+                                        <h5>@String.Format("{0:n0}", item.Price2) VNĐ</h5>
+                                        <h6 style="text-decoration: line-through;color:red" class="mt-3">@String.Format("{0:n0}", item.Price) VNĐ</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+
+                    }
+                }
+            }
+        </div>
+
+    </div>
+</div>

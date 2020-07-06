@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+<!--Logo - thanh tìm kiếm - Giỏ hàng-->
+@Html.Partial("_LogoSearchCart")
+
+<!--Thanh lọc thể loại- Trang hiển thị-->
+<div class="row m-2">
+    <!-- Thanh lọc thể loại-->
+    <div class="col-3">
+        <h6 class="list-group-item active text-center">Danh sách thể loại</h6>
+        @foreach (var genre in ViewBag.ListGenre)
+        {
+            if (genre.IsActive == true)
+            {
+                <a class="list-group-item list-group-item-action" href="~/Book/Genre/@genre.GenreID">Sách @genre.GenreName</a>
+            }
+        }
+        <a class="list-group-item list-group-item-action" href="~/Home/Discount">Sách giảm giá</a>
+        <a class="list-group-item list-group-item-action" href="~/Home/AllBook">Tất cả các sách</a>
+    </div>
+
+    @Html.Partial("_AllBookofGenre")
+</div>

@@ -1,0 +1,265 @@
+﻿
+@{
+    ViewBag.Title = "BookIndex";
+    var user = Session["User"] as BookVN.Models.User;
+}
+
+@if (user != null && user.Role == "admin")
+{
+    <h2 align="center">Danh sách sản phẩm</h2>
+
+    <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalAdd">
+        Thêm sách
+    </button>
+
+    <!-- The Modal Thêm sách-->
+    <div class="modal fade" id="myModalAdd">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thêm sách</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="~/Book/AddBook" method="post" enctype="multipart/form-data">
+
+                        <div class="form-group">
+                            <label>Tên sách</label>
+                            <input type="text" class="form-control" name="BookName">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tác giả</label>
+                            <select class="form-control" name="aID">
+                                @foreach (var item in ViewBag.ListAuthor)
+                                {
+                                    <option value=@item.AuthorID>@item.AuthorName</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Thể loại sách</label>
+                            <select class="form-control" name="gID">
+                                @foreach (var item in ViewBag.ListGenre)
+                                {
+                                    <option value=@item.GenreID>@item.GenreName</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Nhà xuất bản</label>
+                            <select class="form-control" name="bID">
+                                @foreach (var item in ViewBag.ListPublish)
+                                {
+                                    <option value=@item.PublisherID>@item.PublisherName</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Giá sách</label>
+                            <input type="number" class="form-control" name="Price">
+                        </div>
+                        <div class="form-group">
+                            <label>Giảm giá</label>
+                            <input type="number" value="0" class="form-control" name="Discount">
+                        </div>
+                        <div class="form-group">
+                            <label>Số lượng tồn</label>
+                            <input type="number" value="1" class="form-control" name="Inventory">
+                        </div>
+                        <div class="form-group">
+                            <label>Content</label>
+                            <textarea type="text" class="form-control" name="Content" rows="2"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Hình ảnh bìa</label> <br />
+                            <input type="file" name="Image">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Trở lại</button>
+                            <button type="submit" class="btn btn-primary">Thêm sách mới</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------- Danh sách sản phẩm ---------------------------------------------------->
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã sách</th>
+                    <th>Hình ảnh bìa</th>
+                    <th>Tên sách</th>
+                    <th>Tác giả</th>
+                    <th>Thể loại sách</th>
+                    <th>Nhà xuất bản</th>
+                    <th>Giá sách</th>
+                    <th>Giảm Giá</th>
+                    <th>Số lượng tồn</th>
+                    <th>Hiện hữu</th>
+                    <th>Sửa sách</th>
+                    <th style="width:200px">Xóa/Phục hồi sách</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.ListBook != null)
+                {
+                    foreach (var item in ViewBag.ListBook)
+                    {
+                        <tr>
+                            <td>@item.BookID</td>
+                            <td><img src="~/BookImage/@item.Image"width="100" /></td>
+                            <td>@item.BookName</td>
+                            <td>@item.FKAuthor.AuthorName</td>
+                            <td>@item.FKGenre.GenreName</td>
+                            <td>@item.FKPublisher.PublisherName</td>
+                            <td>@item.Price VND</td>
+                            <td>@item.Discount%</td>
+                            <td>@item.Inventory</td>
+                            <td>@item.IsActive</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#myModalEdit_@item.BookID">
+                                    Sửa
+                                </button>
+                                <!-- The Modal Sửa sách-->
+                                <div class="modal fade" id="myModalEdit_@item.BookID">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Sửa sách</h4>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <form action="~/Book/EditBook" method="post" enctype="multipart/form-data">
+                                                    <input type="hidden" name="id" id="id" value="@item.BookID" />
+                                                    <div class="form-group">
+                                                        <label>Tên sách</label>
+                                                        <input type="text" class="form-control" name="BookName" value="@item.BookName">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Tác giả</label>
+                                                        <select class="form-control" name="aID">
+                                                            @foreach (var author in ViewBag.ListAuthor)
+                                                            {
+                                                                if (item.AuthorID == author.AuthorID)
+                                                                {
+                                                                    <option value=@author.AuthorID selected>@author.AuthorName</option>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <option value=@author.AuthorID>@author.AuthorName</option>
+                                                                }
+                                                            }
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Thể loại sách</label>
+                                                        <select class="form-control" name="gID">
+                                                            @foreach (var genre in ViewBag.ListGenre)
+                                                            {
+                                                                if (item.GenreID == genre.GenreID)
+                                                                {
+                                                                    <option value=@genre.GenreID selected>@genre.GenreName</option>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <option value=@genre.GenreID>@genre.GenreName</option>
+                                                                }
+
+                                                            }
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Nhà xuất bản</label>
+                                                        <select class="form-control" name="bID">
+                                                            @foreach (var publish in ViewBag.ListPublish)
+                                                            {
+                                                                if (item.PublisherID == publish.PublisherID)
+                                                                {
+                                                                    <option value=@publish.PublisherID selected>@publish.PublisherName</option>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <option value=@publish.PublisherID>@publish.PublisherName</option>
+                                                                }
+
+                                                            }
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Giá sách</label>
+                                                        <input type="number" class="form-control" name="Price" value="@item.Price">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Giảm Giá</label>
+                                                        <input type="number" class="form-control" name="Discount" value="@item.Discount">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Số lượng tồn</label>
+                                                        <input type="number" class="form-control" name="Inventory" value="@item.Inventory">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Hình ảnh bìa</label> <br />
+                                                        <input type="file" name="Image" value="@item.Image">
+                                                    </div>
+
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-primary">Sửa</button>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <span style="float:left;">
+                                    <form action="~/Book/DeleteBook" method="post">
+                                        <input type="hidden" name="id" id="id" value="@item.BookID" />
+                                        <button class="btn btn-danger" type="submit">Xóa</button>
+                                    </form>
+                                </span>
+                                <span style="float:left; margin-left: 10px;width:100px">
+                                    <form action="~/Book/RestoreBook" method="post">
+                                        <input type="hidden" name="id" id="id" value="@item.BookID" />
+                                        <button class="btn btn-danger" type="submit">Phục hồi</button>
+                                    </form>
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h2 align="center">Đăng nhập bằng acc admin rồi hẳn vào đây nhá ???</h2>
+}
